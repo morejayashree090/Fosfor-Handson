@@ -33,7 +33,7 @@ models:
   jaffle_shot:
     # Applies to all files under models/example/
     staging:
-      +materialized: view
+      +materialized: table
     marts:
       core:
-        +materialized: table
+        +materialized: view
